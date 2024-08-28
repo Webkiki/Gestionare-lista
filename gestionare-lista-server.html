@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>Comunicare Server - local</title>
+    <link rel="stylesheet" href="gestionare-lista-server.css" />
+  </head>
+  <body>
+    <section>
+      <p>Gestionare lista 2 elemente</p>
+      <div class="flex-date">
+        <div class="flex-input">
+          <input id="nume-local" placeholder="Nume" />
+          <input id="nota-locala" placeholder="Nota" />
+        </div>
+        <div class="butoane-flex">
+          <button id="adauga-date-local" class="butoane">Adauga date</button>
+          <button id="sterge-datele" class="butoane">Sterge date</button>
+        </div>
+      </div>
+      <div class="lista">
+        <h3>Lista studenti:</h3>
+        <ul id="lista-nume-nota" class="lista"></ul>
+      </div>
+      <div>
+        <button id="buton-alfabetic" class="butoane">
+          Sorteaza in ordine alfabetica
+        </button>
+        <button id="buton-reverse-alfabetic" class="butoane">
+          Sorteaza in ordine alf inversa
+        </button>
+        <button id="buton-crescator" class="butoane">
+          Sorteaza in ordine crescatoare
+        </button>
+        <button id="buton-descrescator" class="butoane">
+          Sorteaza in ordine descrescatoare
+        </button>
+      </div>
+    </section>
+    <script src="gestionare-lista-server.js"></script>
+  </body>
+</html>
